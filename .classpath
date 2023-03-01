@@ -35,5 +35,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/Users/thekid810/.m2/repository/net/serenity-bdd/serenity-core/3.6.7/serenity-core-3.6.7.jar" sourcepath="/Users/thekid810/.m2/repository/net/serenity-bdd/serenity-core/3.6.7/serenity-core-3.6.7-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="net.serenity-bdd"/>
+			<attribute name="maven.artifactId" value="serenity-core"/>
+			<attribute name="maven.version" value="3.6.7"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
