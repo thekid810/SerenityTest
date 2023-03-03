@@ -130,15 +130,18 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <skip>true</skip>
-                </configuration>
+	                <forkCount>4</forkCount>
+	                <reuseForks>true</reuseForks>
+	                <parallel>classes</parallel>
+	                <threadCount>4</threadCount>
+            	</configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
-						<include>**/testcases/AddAndViewMemberUsingExcel.java</include>             
+						<include>**/testcases/*.java</include>             
                     </includes>
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
