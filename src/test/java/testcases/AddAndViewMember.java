@@ -3,7 +3,6 @@ package testcases;
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import net.thucydides.core.annotations.Title;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.IOException;
